@@ -23,7 +23,7 @@ id,name,age
 n-09,Jen,48
 ```
 
-引数にてカンマ区切りで左辺がフィールド名、右辺が値(完全一致)を指定できる
+引数にてカンマ区切りで左辺がフィールド名、右辺が上書きする値を指定できる
 ```sh
 <tests/members.csv cargo run -- "age,-" >tests/expect-ageless.csv
 ```
